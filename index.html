@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <title>index</title>
-    <script type="module" crossorigin src="/workway/assets/main-LgbuhPyN.js"></script>
-    <link rel="stylesheet" crossorigin href="/workway/assets/main-DS9PV1Qa.css">
+    <script type="module" crossorigin src="/workway/assets/main-DUXalC7W.js"></script>
+    <link rel="stylesheet" crossorigin href="/workway/assets/main-CZRCAStS.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
-  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom py-3">
+  <div class="container ">
     <a class="navbar-brand" href="#">
         <img src="/workway/assets/logo-CRTeTChE.svg" alt="logo">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
         <li class="nav-item me-3">
           <a class="nav-link" href="#">服務方案</a>
@@ -30,16 +30,42 @@
           <a class="nav-link" href="#">聯絡我們</a>
         </li>
       </ul>
+    </div> 
+    <div >
+      <button type="button" class="btn border py-2 px-4">登入/註冊 </button>
+      <button type="button" class="btn ms-3 d-md-none"><span class="navbar-toggler-icon"></span></button>
     </div>
-    <a href="user.html">
-        <img src="/workway/assets/avatar-QGHQ479s.png" class="rounded-circle border me-2 user-image" alt="pic" >
-        Mokumaru
-    </a>
+   
   </div>
-</nav>
-    <h1 class="index-title">我是首頁</h1>
+</nav>    <!-- top -->
+    <div class="container topintro">
+      <div class="py-6 text-center ">
+        <!-- 一起陪伴、探索 -->
+        <h1 class="display-7 fs-md-0 font-weight-bold mb-5 text-md-center">一起陪伴、探索</br>還有你那些未完成的夢</h1>
+        <!--自由工作很美，也很難。 -->
+        <div class="d-md-flex justify-content-md-between">
+          <p class="text-natural-50 text-md-start mb-4">自由工作很美，也很難。</br>我們用 1 對 1 陪伴，陪你從第一步開始，直到夢想變成日常</p>  <!-- bs  18px怎麼設.變電腦版怎麼把斷點取消 -->
+          <button type="button" class="btn btn-font-bold bg-secondary-50 fs-7 fs-md-4 p-3 py-md-4 px-md-5 flex-wrap mb-6">開始你的職旅<span class="material-icons-outlined align-bottom ">chevron_right</span></button><!-- chevron怎麼設置中 -->          
+        </div>
+      </div>
+    </div>
+    <!-- 圖片 -->
+     <div>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <img src="/workway/assets/hero-1-7HLL7KFx.png" alt="hero1" class="d-none d-md-block">
+        </div>
+        <div class="col-md-4">
+          <img src="/workway/assets/hero-2-DD8Hkiv3.png" alt="hero2" class="mb-4 d-none d-md-block">
+          <img src="/workway/assets/hero-3-wmFQiUUr.png" alt="hero3" class="d-none d-md-block">
+        </div>
+        <div class="col-md-4 col-12">
+          <img src="/workway/assets/hero-4-3WllqM98.png" alt="hero4">
+        </div>
+      </div>
+     </div>
 
-    <div class="card" style="width: 18rem">
+    <div class="card shadow" style="width: 18rem">
       <img src="/workway/assets/dog-C9XCfHyE.jpg" class="card-img-top" alt="cat" />
       <div class="card-body">
         <h5 class="card-title">卡片元件</h5>
@@ -78,6 +104,7 @@
       </div>
     </div>
 
+
     <nav class="navbar navbar-expand-lg bg-body-secondary border-top">
   <div class="container">
     <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
@@ -98,7 +125,7 @@
           <a class="nav-link" href="#">用戶條款</a>
         </li>
       </ul>
-      <p class="text-secondary py-5">Copyright © 2025 職旅 workway. All rights reserved.</p>
+      <p class="text-natural-50 py-5">Copyright © 2025 職旅 workway. All rights reserved.</p>
     </div>    
   </div>
 </nav>
