@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <title>user</title>
-    <script type="module" crossorigin src="/workway/assets/main-DQQBam1W.js"></script>
-    <link rel="stylesheet" crossorigin href="/workway/assets/main-llamFoZe.css">
+    <script type="module" crossorigin src="/workway/assets/main-CNDu9NFG.js"></script>
+    <link rel="stylesheet" crossorigin href="/workway/assets/main-CMIdfHB7.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom py-3">
@@ -21,7 +21,7 @@
     <div class="collapse navbar-collapse " id="navbarSupportedContent">
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
         <li class="nav-item me-3">
-          <a class="nav-link" href="user.html">服務方案</a>
+          <a class="nav-link" href="service.html">服務方案</a>
         </li>
         <li class="nav-item me-3">
           <a class="nav-link" href="user.html">關於職旅</a>
@@ -152,7 +152,7 @@
     <main class="bg-natural-95">
       <div class="container  py-7">
         <div class="row justify-content-center">
-          <div class="col-10 ">
+          <div class="col-md-10 ">
             <ul class="nav nav-pills mb-5 justify-content-center tab-btn-bg" id="pills-tab" role="tablist" >
             <li class="nav-item me-4" role="presentation">
               <button class="nav-link border active" id="pill-info-tab" data-bs-toggle="pill" data-bs-target="#pill-info" type="button" role="tab" aria-controls="pill-info" aria-selected="true"><span class="material-icons-outlined align-bottom me-1">
@@ -294,7 +294,7 @@ list_alt
             <div class="tab-pane fade" id="pills-record" role="tabpanel" aria-labelledby="pills-record-tab" tabindex="0">
               <h2 class="fs-4  mb-4">預約紀錄</h2>
               <div class="d-flex gap-4 mb-5">
-                <div class="card w-100">
+                <div class="card w-100 d-none d-md-block">
                   <div class="card-body text-center py-4">
                     <h3 class="fs-2 fw-bold mb-2 text-primary-60">3</h3>
                     <p class="fs-5 text-natural-60">已完成諮詢</p>
@@ -306,7 +306,7 @@ list_alt
                     <p class="fs-5 text-natural-60">即將到來</p>
                   </div>
                 </div>
-                <div class="card w-100">
+                <div class="card w-100 d-none d-md-block">
                   <div class="card-body text-center py-4">
                     <h3 class="fs-2 fw-bold mb-2 text-primary-60">3/6</h3>
                     <p class="fs-5 text-natural-60">使用方案進度</p>
@@ -320,7 +320,7 @@ list_alt
                     <button type="button" class="btn btn-outline-dark border me-2">已取消</button>
                 </div>
                 <div class="dropdown ">
-                   <button class="btn border" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   <button class="btn border " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                      排序<span class="material-icons-outlined align-bottom ms-1">filter_list</span>
                    </button>
                    <ul class="dropdown-menu dropdown-menu-end">
@@ -333,8 +333,8 @@ list_alt
                 <thead>
                   <tr>
                     <th scope="col">諮詢方案</th>
-                    <th scope="col">預約日期</th>
-                    <th scope="col">諮詢時長</th>
+                    <th scope="col" class="d-none">預約日期</th>
+                    <th scope="col" class="">諮詢時長</th>
                     <th scope="col">諮詢方式</th>
                     <th scope="col">上課狀態</th>
                   </tr>
@@ -342,19 +342,19 @@ list_alt
                 <tbody>
                   <!-- 職涯定位-職涯探索包6 -->
                   <tr>
-      <td>職涯定位-職涯探索包 | 6/6堂</td>
-      <td>2025/11/11</td>
-      <td>60分鐘</td>
-      <td><span class="badge  border">視訊</span></td>
-      <td>等待上課</td>
-                  </tr>
+                    <td>職涯定位-職涯探索包 | 6/6堂</td>
+                    <td>2025/11/11</td>
+                    <td>60分鐘</td>
+                    <td><span class="badge  border">視訊</span></td>
+                    <td>等待上課</td>
+                    </tr>
                   <!-- 職涯定位-職涯探索包5 -->
-                  <tr>
-      <td>職涯定位-職涯探索包 | 5/6堂</td>
-      <td>2025/10/10</td>
-      <td>60分鐘</td>
-      <td><span class="badge  border">視訊</span></td>
-      <td>等待上課</td>
+                    <tr>
+                    <td>職涯定位-職涯探索包 | 5/6堂</td>
+                    <td>2025/10/10</td>
+                    <td>60分鐘</td>
+                    <td><span class="badge  border">視訊</span></td>
+                    <td>等待上課</td>
                   </tr>
                   <!-- 職涯定位-職涯探索包4 -->
                   <tr >
@@ -812,15 +812,17 @@ list_alt
 
 
 
-    <div class="footer bg-natural-95 py-5 px-3 py-md-6 flex-md-nowrap d-md-flex justify-content-md-between ">
-    <ul class="d-flex flex-wrap justify-content-center justify-content-md-start ">
-        <li class="py-2 px-4 px-md-5 fs-6">服務方案</li>
-        <li class="py-2 px-4 px-md-5 fs-6">關於職旅</li>
-        <li class="py-2 px-4 px-md-5 fs-6">聯絡我們</li>      
-        <li class="py-2 px-4 px-md-5 fs-6">隱私權政策</li>
-        <li class="py-2 px-4 px-md-5 fs-6">用戶條款</li>   
-    </ul>
-    <p class="text-natural-50 text-center py-2 px-1 fs-6">Copyright © 2025 職旅 workway. All rights reserved.</p>
+    <div class="bg-natural-95">
+    <div class="container py-5 py-md-6  flex-md-nowrap d-md-flex justify-content-md-between ">
+        <ul class=" d-flex flex-wrap justify-content-center justify-content-md-start ms--6">
+            <li class="py-2 px-4 px-md-5 fs-6">服務方案</li>
+            <li class="py-2 px-4 px-md-5 fs-6">關於職旅</li>
+            <li class="py-2 px-4 px-md-5 fs-6">聯絡我們</li>      
+            <li class="py-2 px-4 px-md-5 fs-6">隱私權政策</li>
+            <li class="py-2 px-4 px-md-5 fs-6">用戶條款</li>   
+        </ul>
+        <p class=" text-natural-50 text-center py-2 px-1 fs-6">Copyright © 2025 職旅 workway. All rights reserved.</p>
+    </div>
 </div>
   </body>
 </html>
