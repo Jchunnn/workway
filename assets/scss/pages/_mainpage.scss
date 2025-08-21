@@ -1,0 +1,158 @@
+.index-title {
+  font-size: 100px;
+}
+.btn-font-bold{
+  font-weight: 700;
+}
+.img{
+  max-width: 100%;
+}
+.card-title{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.card-text{
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.card{
+  width: 320px;
+  position: relative;
+}
+.badge-year{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+.overflow-x-auto {
+    overflow-x: auto;
+}
+.bubblebox{
+  width: 120px;
+  margin: 0 auto;
+  background-color: $white;
+  border-radius: 12px;
+  padding-top: 13.8px;
+  padding-bottom: 13.8px;
+  padding-right: 23.88px;
+  padding-left: 23.88px;
+  position: relative;
+}
+.bubbletail{
+  position: absolute;
+  bottom: -13px;
+  /* 超出底部 */
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff;
+  border-right: 2px solid #4A69E8;
+  border-bottom: 2px solid #4A69E8;
+  box-sizing: border-box;
+}
+.choice{
+  position: relative;
+}
+.choice img{
+  position: absolute;
+  bottom: -22px;
+  right:0;
+}
+.advcard-badge{
+  left:0; 
+  bottom:0;
+}
+.overflow-hidden{
+  overflow: hidden;
+}
+.gradientballone{
+  bottom: -312px;
+  z-index: -1;
+}
+.gradientballtwo{
+  bottom: -160px;
+  right: -160px;
+  z-index: -1;
+}
+.z-0{
+  z-index: 0;
+}
+.card-service-badge{
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.contact-area{
+  border-bottom: 1px dashed $white;
+}
+.qa{
+  background-image: url(/assets/images/bg-grid.png);
+  background-position: 0%;
+  background-repeat: repeat;
+}
+.adv-card .category {
+  opacity: 0;
+  pointer-events: none; /* 避免隱藏時還能點擊 */
+  transition: opacity 0.3s ease;
+}
+
+.adv-card:hover .category {
+  opacity: 1;
+  pointer-events: auto;
+  overflow-y: hidden;
+}
+ul{
+  list-style-type: none;
+}
+.social-me{
+    border: 1px solid #D1D9E1 ;
+    border-radius: 16px;
+}
+.underline{
+  text-decoration: underline;
+}
+.login{
+  border-bottom: 1px solid #D1D9E1;
+}
+.w-560{
+  width: 560px;
+}
+.h-560{
+  height: 560px;
+}
+.w-400{
+    width: 400px;
+  }
+.h-400{
+  height: 400px;
+}
+@media(min-width: 768px){
+  .top-md-intro{
+  margin: 0 auto;
+  width: 815px;  /* top sign 限寬 */
+}
+  .advcard-badge{
+  left:0; 
+  bottom:0;
+}
+  .gradientballone-md{
+  bottom: -482px;
+  justify-content: center;
+  z-index: -1;
+}
+  .gradientballtwo-md{
+  bottom: -300px;
+  right: -300px;
+  z-index: -1;
+}
+  .w-md-800{
+    width: 800px;
+  }
+  .h-md-800{
+    height: 800px;
+  }
+}

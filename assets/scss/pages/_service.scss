@@ -1,0 +1,57 @@
+.service-bg{
+    background-image: url(/assets/images/banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ms--6{
+    margin-left: -32px;
+}
+.plan-a{
+    border: 2px solid $secondary-50;
+    border-radius: 16px;
+}
+.plan:hover{
+    border: 2px solid $secondary-50;
+    border-radius: 16px;
+}
+.badge-plan{
+    left: 0;
+    top: 0;
+}
+.serviceimg{
+    width: 120px;
+    height: 120px;
+}
+.subscribebg{
+    background-image: url(/assets/images/subscribe-3.svg);
+    bottom: -50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $secondary-90;
+}
+@media(min-width:768px){
+    .service-md-bg{
+        background-image: url(/assets/images/banner-bg-pc.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .person{
+    bottom: -10px;
+    right: 128px;
+    }
+    .serviceimg-md{
+    width: 160px;
+    height: 160px;
+    }
+    .subscribe-personone{
+    bottom: -1px;
+    left: 24px;
+    }
+    .subscribe-persontwo{
+        bottom: -1px;
+        right: 24px;
+    }
+}

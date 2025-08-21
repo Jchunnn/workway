@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <title>首頁</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <div>
+      <!-- top intro -->
+      <div class="position-relative overflow-hidden z-0">
+        <div class="container top-md-intro ">
+          <div class="pt-md-7 pt-6 text-center ">
+            <!-- 一起陪伴、探索 -->
+            <h1 class="display-7 fs-md-0 font-weight-bold mb-5 text-md-center">一起陪伴、探索</br>還有你那些未完成的夢</h1>
+            <!--自由工作很美，也很難。 -->
+            <div class=" d-md-flex justify-content-md-between ">
+              <p class="text-natural-50 text-md-start mb-4">自由工作很美，也很難。</br>我們用 1 對 1 陪伴，陪你從第一步開始，直到夢想變成日常</p>  <!-- bs  18px怎麼設.變電腦版怎麼把斷點取消 -->
+              <button type="button" class="btn btn-font-bold bg-secondary-50 fs-7 fs-md-4 p-3 py-md-4 px-md-5 flex-wrap mb-6">開始你的職旅<span class="material-icons-outlined align-bottom ">chevron_right</span></button><!-- chevron怎麼設置中 -->          
+            </div>
+          </div>
+          <img src="/assets/images/gradient-ball.png" alt="ball" class="position-absolute 560 h-560 gradientballone-md w-md-800 h-md-800 ">
+        </div>
+        <img src="/assets/images/gradient-ball.png" alt="ball" class="position-absolute gradientballone w-560 h-560 d-md-none ">
+      </div>
+      <!-- 圖片 -->
+       <div class="container">
+        <div class="row pb-md-7">
+          <div class="col-md-4 d-none d-md-block">
+            <img src="/assets/images/hero-1.png" alt="hero1">
+          </div>
+          <div class="col-md-4 d-none d-md-block">
+            <img src="/assets/images/hero-2.png" alt="hero2" class="mb-4">
+            <img src="/assets/images/hero-3.png" alt="hero3">
+          </div>
+          <div class="col col-md-4">
+            <img src="/assets/images/hero-4.png" alt="hero4" class="mb-6 ">
+          </div>
+        </div>
+       </div>
+       <!-- story -->
+      <div class="container ">
+        <div class="row-md d-md-flex">
+          <div class="col-md-4 me-md-5">
+            <img src="/assets/images/logo-icon.svg" alt="logo" class="mb-4">
+            <h2 class="fs-2 fs-md-1 fw-bold mb-4 ">他們已經踏上職旅</br>聽聽他們的故事</h2>
+            <p class="fs-md-5 text-natural-50  mb-4">每一段職涯轉型都有獨特挑戰，這些曾經與你有相同疑惑的夥伴，現在正過著他們嚮往的生活</p>
+          </div>
+          <!-- Card區 -->
+          <div class="col-md-8 d-flex overflow-x-auto mb-6 mb-md-7">
+            <!-- mindy -->
+             <div class="row">
+               <div class="col">
+                 <div class="card shadow me-3 " style="width: 300px;">
+                    <img src="/assets/images/story-cover-1.png" class="card-img-top" alt="storycover1">
+                    <span class="badge-year bg-primary-60 text-white fs-sm py-2 px-4">數位遊牧 2 年</span>
+                  <div class="card-body">
+                    <h5 class="card-title">轉型成功的設計師</h5>
+                    <p class="card-text text-natural-50">從企業設計師轉職自由接案，比我想的難太多。收入不穩時我幾乎想放棄，是職旅顧問幫我找回方向與差異化。半年後，我不僅維持收入，還能自由挑案，最重要的是，我終於有時間陪爸媽。</p>
+                    <!-- breadcrumb -->
+                    <nav style="--bs-breadcrumb-divider: '|';" aria-label="breadcrumb" class="mb-4">
+                      <ol class="breadcrumb">
+                        <li class="breadcrumb-item fw-bold"><a href="#">視覺設計師</a></li>
+                        <li class="breadcrumb-item active fw-normal text-natural-10" aria-current="page">郭敏迪 (34y)</li>
+                      </ol>
+                    </nav>
+                 </div>
+                 </div>
+               </div>
+             </div>
+             <!-- jie -->
+             <div class="row">
+               <div class="col">
+                 <div class="card shadow me-3" style="width: 300px;">
+                    <img src="/assets/images/story-cover-2.png" class="card-img-top" alt="storycover2">
+                    <span class="badge-year bg-primary-60 text-white fs-sm py-2 px-4">數位遊牧 2 年</span>
+                  <div class="card-body">
+                    <h5 class="card-title">數位遊牧生活實踐者</h5>
+                    <p class="card-text text-natural-50">兩年前我只想環遊世界，卻不知道怎麼開始。職旅給了我遠端工作與生活規劃的指導。現在我在五個國家工作過，收入比以前多 20%。每次打開電腦，看見窗外不同的風景，都慶幸當初那一個決定。</p>
+                    <!-- breadcrumb -->
+                    <nav style="--bs-breadcrumb-divider: '|';" aria-label="breadcrumb" class="mb-4">
+                      <ol class="breadcrumb">
+                        <li class="breadcrumb-item fw-bold"><a href="#">內容策略師</a></li>
+                        <li class="breadcrumb-item active fw-normal text-natural-10" aria-current="page">林雨潔 (29y)</li>
+                      </ol>
+                    </nav>
+                 </div>
+                 </div>
+               </div>
+             </div>
+             <!-- ming -->
+             <div class="row">
+               <div class="col">
+                 <div class="card shadow me-3" style="width: 300px;">
+                    <img src="/assets/images/story-cover-3.png" class="card-img-top" alt="storycover3">
+                    <span class="badge-year bg-primary-60 text-white fs-sm py-2 px-4">數位遊牧 3 年</span>
+                  <div class="card-body">
+                    <h5 class="card-title">中年轉型的工程師</h5>
+                    <p class="card-text text-natural-50">59 歲被裁員時，我以為職涯結束了。職旅顧問不只幫我轉職，更讓我相信自己還有價值。現在我每月穩定接案、收入翻倍。年齡不是限制，只是我還沒找到對的方向。</p>
+                    <!-- breadcrumb -->
+                    <nav style="--bs-breadcrumb-divider: '|';" aria-label="breadcrumb" class="mb-4">
+                      <ol class="breadcrumb">
+                        <li class="breadcrumb-item fw-bold"><a href="#">系統架構顧問</a></li>
+                        <li class="breadcrumb-item active fw-normal text-natural-10" aria-current="page">張世明 (62y)</li>
+                      </ol>
+                    </nav>
+                 </div>
+                 </div>
+               </div>
+             </div>  
+          </div>
+        </div>
+      </div>
+      <!-- reason區 -->
+       <div class="bg-natural-95 "> 
+         <div class="container bg-natural-95 pt-6 pt-md-7">
+          <!-- bubblebox -->
+           <div class="bubblebox mt-md-5 border border-2 border-primary-60 mb-4 " style="width: 120px;">
+            <p class="text-primary-60 text-center fs-6 fw-bold">為什麼？</p>
+            <div class="bubbletail"></div>
+           </div>
+           <!-- 選擇職旅 WorkWay -->
+           <div>
+            <div class="d-md-flex justify-content-md-center choice">
+              <h2 class="fs-2 fw-bold text-center mb-5">選擇職旅 WorkWay</h2>
+              <img src="/assets/images/adv-vectors.svg" alt="adv-vectors" class="d-none d-md-block">
+            </div>
+            <!-- card -->
+             <div class="row-md d-md-flex">
+              <!-- 實戰經驗 -->
+              <div class="adv-card col-md-4 me-md-5  position-relative mb-5 mb-md-0">
+                <img src="/assets/images/adv-1.png" alt="adv1" class="rounded ">
+                <div class="category position-absolute top-0 start-0 bottom-0 w-100 h-100 d-flex justify-content-center align-items-center rounded p-4 " style="background-color: rgba(0, 0, 0, 0.5);">
+                    <span class="text-white text-center">我們的顧問都是親身走過這條路的專家，不是紙上談兵的理論家。你所學到的每一個建議，都是經過無數次嘗試與錯誤後萃取的精華。</span>
+                </div>
+                <div class="advcard-badge position-absolute  py-4 px-4  bg-natural-95 fw-bold d-flex" style="border-top-right-radius: 12px;">
+                  <span class="material-icons-outlined text-primary-60 me-2">ads_click</span>
+                  <p class="fs-7 text-natural-50">實戰經驗</p>
+                </div>
+              </div>
+              <!-- 全方位支持 -->
+              <div class="adv-card col-md-4 me-md-5 position-relative mb-5 mb-md-0">
+                <img src="/assets/images/adv-2.png" alt="adv2" class="rounded ">
+                <div class="category position-absolute top-0 start-0 bottom-0 w-100 h-100 d-flex justify-content-center align-items-center rounded p-4 " style="background-color: rgba(0, 0, 0, 0.5);">
+                    <span class="text-white text-center">從心態調整到實際操作，從品牌建立到財務規劃，我們提供你轉型路上需要的每一塊拼圖，讓不確定感不再阻礙你的決定。</span>
+                </div>
+                <div class="advcard-badge position-absolute  py-4 px-4 bg-natural-95 fw-bold d-flex" style="border-top-right-radius: 12px;">
+                  <span class="material-icons-outlined text-primary-60 me-2">ads_click</span>
+                  <p class="fs-7 text-natural-50">全方位支持</p>
+                </div>
+              </div>
+              <!-- 社群力量 -->
+              <div class="adv-card col-md-4 position-relative">
+                <img src="/assets/images/adv-3.png" alt="adv3" class=" rounded ">
+                <div class="category position-absolute top-0 start-0 bottom-0 w-100 h-100 d-flex justify-content-center align-items-center rounded p-4 " style="background-color: rgba(0, 0, 0, 0.5);">
+                    <span class="text-white text-center">加入職旅不只是獲得諮詢，更是連結到一群志同道合的夥伴。在這裡，你的疑惑有人解答，你的成就有人分享，你的旅程不再孤單。</span>
+                </div>
+                <div class="advcard-badge position-absolute py-4 px-4 bg-natural-95 fw-bold d-flex" style="border-top-right-radius: 12px;">
+                  <span class="material-icons-outlined text-primary-60 me-2">ads_click</span>
+                  <p class="fs-7 text-natural-50">社群力量</p>
+                </div>
+              </div>
+            </div>
+            <!-- 下方小句子 -->
+            <div class="pt-5">
+              <p class="text-natural-50 pb-6 pb-md-7">不是套模板的建議，而是為你量身打造的陪伴！</p>
+            </div>
+           </div>
+         </div>
+       </div>
+      <!-- challenge區 -->  
+       <div class=" position-relative overflow-hidden z-0">
+         <div class="container ">
+          <div class="row-md pt-6 py-md-7 gap-md-5 d-md-flex ">
+            <div class="col-md-6 mb-5">
+              <img src="/assets/images/team.png" alt="team" class="rounded ">
+            </div>
+            <div class="col-md-6 text-center text-md-start pb-6">          
+              <h2 class="fs-2 fs-md-1 fw-bold  mb-4 mb-md-5">遇見你的職涯夥伴</h2>
+              <p class="text-start text-natural-50 fs-md-5 mb-4 mb-md-5">每位顧問都有獨特專長，更重要的是：</p>
+              <h3 class="fs-7 fs-md-4 text-primary-60 bg-natural-95 fw-bold p-2 d-md-inline mb-4 ">“ 他們都曾面對你正在經歷的挑戰 ”</h3>
+              <p class="text-natural-50 text-start mt-md-5 mb-4 mb-md-5">職旅 WorkWay 匯集了來自不同領域、擁有豐富實戰經驗的自由工作者與數位遊牧專家。我們的顧問不只教授理論，更分享親身經歷的挑戰與解決之道。</p>
+              <p class="text-natural-50 text-start mb-4 mb-md-5">我們相信，最好的指導來自於那些已經走過你想走的路，並願意伸出手拉你一把的人。</p>
+              <button type="button" class="btn btn-dark p-3 px-md-5 ">了解更多職旅夥伴<span class="material-icons-outlined align-bottom">chevron_right</span></button>
+              
+            </div>
+          </div>
+         </div>
+         <img src="/assets/images/gradient-ball.png" alt="ball" class="position-absolute gradientballtwo w-400 h-400 gradientballtwo-md w-md-800 h-md-800">
+       </div>
+       <!-- service -->
+       <div class="bg-primary-60">
+          <div class="container text-center">
+            <h2 class="fs-2 fw-bold text-white pt-6 pb-4 pt-md-7 pb-md-5">服務流程</h2>
+            <p class="text-white pb-5 pb-md-6">簡單四步，踏上你的職旅</p>
+            <!-- card-service區 -->
+            <div class="d-flex overflow-x-auto">
+              <!-- card1 -->
+               <div class="row-md">
+                <div class="col-md-4 position-relative me-4">
+                  <div class="card-service-group pb-6">
+                    <div class="card-service bg-white rounded" style="width: 306px;">
+                      <img src="/assets/images/serve-1.svg" class="pt-6 pb-4" alt="serve-1" style="width: 160px;">
+                      <div class="card-service-body">
+                        <h5 class="card-service-title fw-bold fs-7 pb-4">免費註冊會員</h5>
+                        <p class="card-service-text fs-sm text-natural-50 pb-6 ">透過網站左上角按鈕，立即註冊免費會員，與我們開始建立連結。</p>
+                      </div>
+                    </div>
+                    <!-- badge -->
+                     <div class="card-service-badge position-absolute bg-natural-95 top-0" style="border-bottom-right-radius:12px;border-top-left-radius:12px">
+                      <p class="text-primary-60 fw-bold ">STEP1</p>
+                     </div>
+                  </div>
+                </div>
+               </div>
+               <!-- card2 -->
+               <div class="row-md">
+                <div class="col-md-4 position-relative me-4">
+                  <div class="card-service-group pb-6">
+                    <div class="card-service bg-white rounded" style="width: 306px;">
+                      <img src="/assets/images/serve-2.svg" class="pt-6 pb-4" alt="serve-2" style="width: 160px;">
+                      <div class="card-service-body">
+                        <h5 class="card-service-title fw-bold fs-7 pb-4">填寫職旅計劃</h5>
+                        <p class="card-service-text fs-sm text-natural-50 pb-6">了解你的技能、熱情與市場需求的交會點，找出屬於你的獨特定位。</p>
+                      </div>
+                    </div>
+                    <!-- badge -->
+                     <div class="card-service-badge position-absolute bg-natural-95 top-0" style="border-bottom-right-radius:12px;border-top-left-radius:12px">
+                      <p class="text-primary-60 fw-bold ">STEP2</p>
+                     </div>
+                  </div>
+                </div>
+               </div>
+               <!-- card3 -->
+               <div class="row-md">
+                <div class="col-md-4 position-relative me-4">
+                  <div class="card-service-group pb-6">
+                    <div class="card-service bg-white rounded" style="width: 306px;">
+                      <img src="/assets/images/serve-3.svg" class="pt-6 pb-4" alt="serve-3" style="width: 160px;">
+                      <div class="card-service-body">
+                        <h5 class="card-service-title fw-bold fs-7 pb-4">初次諮詢</h5>
+                        <p class="card-service-text fs-sm text-natural-50 pb-6">依據你的目標與現況，給予最直接的建議，建立清晰的轉型思路。</p>
+                      </div>
+                    </div>
+                    <!-- badge -->
+                     <div class="card-service-badge position-absolute bg-natural-95 top-0" style="border-bottom-right-radius:12px;border-top-left-radius:12px">
+                      <p class="text-primary-60 fw-bold ">STEP3</p>
+                     </div>
+                  </div>
+                </div>
+               </div>
+               <!-- card4 -->
+               <div class="row-md">
+                <div class="col-md-4 position-relative me-4">
+                  <div class="card-service-group pb-6">
+                    <div class="card-service bg-white rounded" style="width: 306px;">
+                      <img src="/assets/images/serve-4.svg" class="pt-6 pb-4" alt="serve-4" style="width: 160px;">
+                      <div class="card-service-body">
+                        <h5 class="card-service-title fw-bold fs-7 pb-4">實戰指導</h5>
+                        <p class="card-service-text fs-sm text-natural-50 pb-6">專家一對一指導，從品牌建立到客戶開發，每一步都有明確方向。</p>
+                      </div>
+                    </div>
+                    <!-- badge -->
+                     <div class="card-service-badge position-absolute bg-natural-95 top-0" style="border-bottom-right-radius:12px;border-top-left-radius:12px">
+                      <p class="text-primary-60 fw-bold ">STEP4</p>
+                     </div>
+                  </div>
+                </div>
+               </div>
+            </div>
+          </div>
+       </div>
+       <!-- QA -->
+       <div class="container qa pt-6 text-center">
+          <!-- bubblebox -->
+           <div class="bubblebox border border-2 border-primary-60 mb-4" style="width: 120px;">
+            <p class="text-primary-60 fw-bold text-center ">\ Q&A /</p>
+            <div class="bubbletail"></div>
+           </div>
+           <!-- word -->
+            <h2 class="fw-bold mb-5 fs-md-1 mb-md-6">你可能有些困惑...</h2>
+            <!-- accordion -->
+            <div class="row-md d-md-flex mb-6 mb-md-7">
+                <!-- left pic -->
+                <div class="col-md-5 ">
+                  <img src="/assets/images/qa.svg" alt="QA" class="d-none d-md-block">
+                </div>
+                <!-- right accordion -->
+                 <div class="col-md-7">
+                  <!-- QA1 -->
+                   <div class="container accordion accordion-flush bg-white mb-4 mb-md-5" id="accordionQA">
+                   <div class="accordion-item">
+                     <h2 class="accordion-header">
+                       <button class="accordion-button bg-white text-natural-50 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                         Q.一對一諮詢是怎麼進行的？需要準備什麼嗎？
+                       </button>
+                     </h2>
+                     <div id="collapseOne" class="accordion-collapse collapse show" >
+                       <div class="accordion-body text-left d-flex">
+                         <strong class="text-primary-60 me-2">A.</strong>
+                         <p class="text-start">諮詢通常採 Google Meet 或 Zoom，時長約 30 分鐘。我們建議你在預約前先簡單整理目前的狀態、遇到的困難、或想達成的目標。如果你不確定，顧問也會從對話中引導你探索，無需擔心準備不夠。</p>
+                       </div>
+                     </div>
+                   </div>
+                   </div>
+                   <!-- QA2 -->
+                   <div class="container accordion accordion-flush bg-white mb-4 mb-md-5" id="accordionQA">
+                   <div class="accordion-item">
+                     <h2 class="accordion-header">
+                       <button class="accordion-button bg-white text-natural-50 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                         Q.自由職涯真的可以養活自己嗎？你們怎麼協助？
+                       </button>
+                     </h2>
+                     <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionQA">
+                       <div class="accordion-body text-left d-flex">
+                         <strong class="text-primary-60 me-2">A.</strong>
+                         <p class="text-start">自由職涯可以養活自己，但需要有策略與持續調整。WorkWay 顧問會根據你的專業、興趣、可投入時間，設計客製化的變現路徑，例如自由接案、產品化服務、遠端職位申請等，同時協助你管理初期財務風險，避免因壓力過大中途放棄。</p>
+                       </div>
+                     </div>
+                   </div>
+                   </div>
+                   <!-- QA3 -->
+                   <div class="container accordion accordion-flush bg-white mb-4 mb-md-5" id="accordionQA">
+                   <div class="accordion-item">
+                     <h2 class="accordion-header">
+                       <button class="accordion-button bg-white text-natural-50 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                         Q.職旅 WorkWay 的收費方式是怎麼計算的？
+                       </button>
+                     </h2>
+                     <div id="collapseThree" class="accordion-collapse collapse show" data-bs-parent="#accordionQA">
+                       <div class="accordion-body text-left d-flex">
+                         <strong class="text-primary-60 me-2">A.</strong>
+                         <p class="text-start">我們提供單次諮詢、短期方案（例如 3 次輔導包）、或專案長期陪跑計畫。每種方案都標示清楚金額與包含內容，無強制綁約或推銷額外商品。選擇前，我們也會依照你的需求與預算一起討論最適合的安排。</p>
+                       </div>
+                     </div>
+                   </div>
+                   </div>
+                   <!-- QA4 -->
+                   <div class="container accordion accordion-flush bg-white mb-4 mb-md-5" id="accordionQA">
+                   <div class="accordion-item">
+                     <h2 class="accordion-header">
+                       <button class="accordion-button bg-white text-natural-50 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                         Q.如果諮詢後發現不適合，會有退款保障嗎？
+                       </button>
+                     </h2>
+                     <div id="collapseFour" class="accordion-collapse collapse show" data-bs-parent="#accordionQA">
+                       <div class="accordion-body text-left d-flex">
+                         <strong class="text-primary-60 me-2">A.</strong>
+                         <p class="text-start">WorkWay 對每一位學員負責。如果你在第一次完整諮詢結束後，覺得方向不符合期待，可在 3 日內申請退款。我們也提供一次更換顧問的機會，確保你找到最適合自己的陪伴者。</p>
+                       </div>
+                     </div>
+                   </div>
+                   </div>
+                   <!-- QA5 -->
+                   <div class="container accordion accordion-flush bg-white mb-4 mb-md-5" id="accordionQA">
+                   <div class="accordion-item">
+                     <h2 class="accordion-header">
+                       <button class="accordion-button bg-white text-natural-50 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                         Q.我現在還不確定自己要什麼，也可以預約諮詢嗎？
+                       </button>
+                     </h2>
+                     <div id="collapseFive" class="accordion-collapse collapse show" data-bs-parent="#accordionQA">
+                       <div class="accordion-body text-left d-flex">
+                         <strong class="text-primary-60 me-2">A.</strong>
+                         <p class="text-start">很多人來找 WorkWay 時，其實也處於迷惘期。我們的一對一諮詢設計，就是從理解你的人生目標、價值觀與現實條件開始，逐步協助你釐清想要的生活方式與可能路徑。你不需要有答案，只需要願意開始對話。</p>
+                       </div>
+                     </div>
+                   </div>
+                   </div>
+                 </div>
+            </div>
+       </div>
+       <!-- contact -->
+       <div class="container ">
+           <div class="bg-primary-60 rounded px-5 ps-md-6 text-white mb-6" >
+             <img src="/assets/images/logo-icon-w.svg" alt="logo" class="mb-5 mt-4 mt-md-5" >
+             <h3 class="fs-3 fs-md-2 fw-bold  pb-3">邁向你真正想過的生活，從這裡開始</h3>
+             <p class="fs-md-5 pb-5 contact-area">第一次諮詢只要 30 分鐘，可能改變你未來 30 年的生活方式</p>
+             <!-- tel.mail -->
+              <div class="py-4 py-md-5 d-md-flex flex-nowrap justify-content-md-between">
+                <div class="d-md-flex" >
+                  <p class="pb-4 me-md-5"><span class="material-icons-outlined align-bottom me-2">phone</span>0800-123-123</p>
+                  <p class="pb-4"><span class="material-icons-outlined align-bottom me-2">mail</span>Sample@mail.com</p>
+                </div>
+                <button type="button" class="btn btn-dark" style="border-radius: 12px;">預約免費職涯探索<span class="material-icons-outlined align-bottom">chevron_right</span></button>
+              </div>
+           </div>
+       </div>
+    </div>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

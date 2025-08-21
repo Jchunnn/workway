@@ -1,7 +1,11 @@
-.bg-gray{
-    background-color: #F0F3F5;
+.side-width{
+    width: 300px;
 }
-.section-padding{
-    padding-top: 80px;
-    padding-bottom: 80px;
+.beside-width{
+    width: 656px;
+}
+.tab-btn-bg{
+    .nav-link{
+        background-color: $white;
+    }
 }
