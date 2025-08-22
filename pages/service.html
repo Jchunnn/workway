@@ -11,24 +11,27 @@
     <%- include('./layout/header'); -%>
     <!-- 服務方案 -->
     <section class="position-relative service-bg service-md-bg">
-      <div class="container text-center py-6">
+      <div class="container text-center py-6" data-aos="fade-down"
+          data-aos-duration="2000">
         <h2 class="fs-2 fs-md-1 fw-bolder mb-5">服務方案</h2>
         <p class="text-natural-50">我們最全面的服務方案，為您提供從評估、規劃到實踐的完整支持。不再擔心轉型過程中的各種挑</br>戰，我們的專家團隊將全程陪伴，確保您順利實現職業自由。</p>
         <img src="/assets/images/banner-person.svg" alt="person" class="position-absolute person d-none d-md-block overflow-hidden">
       </div>
     </section>
-    <!--  -->
+    <!-- 內容 -->
     <section class="container">
       <!-- 職涯轉型全程計畫 -->
       <div class="py-6">
         <!-- 職涯轉型全程計畫 -->
-        <div class=" text-center pb-5">
+        <div class=" text-center pb-5" data-aos="flip-left"
+          data-aos-duration="2000">
           <img src="/assets/images/goal.svg" alt="goal" class="mb-1" style="width: 42px; height: 42px;">
           <h2 class="fs-2 fs-md-1 fw-bolder mb-4 mb-md-5">職涯轉型全程計畫</h2>
           <p class="text-natural-50">從企業到自由，無縫轉型之旅</p>
         </div>
         <!-- 全面方案 -->
-        <div class="position-relative mb-4 mb-md-5">  <!-- 內層文字 -->
+        <div class="position-relative mb-4 mb-md-5" data-aos="fade-up"
+          data-aos-duration="2000">  <!-- 內層文字 -->
              <div class="container plan-a p-md-6 pt-6 d-flex"><!-- 外層container -->
              <div class="px-5">
                <p class="fs-sm text-primary-60 mb-2 ">全面方案</p>
@@ -62,7 +65,8 @@
              </div>
         </div>
         <!-- 加速方案 -->
-        <div class="mb-4 mb-md-5">  <!-- 內層文字 -->
+        <div class="mb-4 mb-md-5" data-aos="fade-up"
+          data-aos-duration="2000">  <!-- 內層文字 -->
              <div class="container plan p-md-6 pt-4 d-flex shadow rounded "><!-- 外層container -->
              <div class="px-5">
                <p class="fs-sm text-primary-60 mb-2 ">加速方案</p>
@@ -95,7 +99,8 @@
              </div>
         </div>
         <!-- 遊牧方案 -->
-        <div class="mb-4 mb-md-5">  <!-- 內層文字 -->
+        <div class="mb-4 mb-md-5" data-aos="fade-up"
+          data-aos-duration="2000">  <!-- 內層文字 -->
              <div class="container plan p-md-6 pt-4 d-flex shadow rounded "><!-- 外層container -->
              <div class="px-5">
                <p class="fs-sm text-primary-60 mb-2 ">遊牧方案</p>
@@ -131,14 +136,16 @@
     </section>
       <!--基礎諮詢服務 -->
       <section class="bg-natural-95"><!-- 背景色 -->
-        <div class="container text-center py-6 py-md-7"><!-- 限縮寬度 -->
+        <div class="container text-center py-6 py-md-7" ><!-- 限縮寬度 -->
           <!--基礎諮詢服務 -->
-          <div class="pb-5">
+          <div class="pb-5" data-aos="flip-left"
+          data-aos-duration="2000">
               <img src="/assets/images/conversation.svg" alt="conversation" class="mb-1" >
               <h2 class="fs-2 fs-md-1 fw-bolder mb-4 mb-md-5">基礎諮詢服務</h2>
               <p class="text-natural-50">我們提供第一次免費諮詢，一起建立信任的橋樑</p>
           </div>
-          <div class="row-md d-md-flex ">
+          <div class="row-md d-md-flex " data-aos="fade-up"
+          data-aos-duration="2000">
             <!-- 職涯探索評估 -->
             <div class="col-md-4 me-md-5">
                <div class="py-5 plan shadow rounded mb-4">  
@@ -175,7 +182,8 @@
             </div>
           </div>
           <!-- 持續支持方案 -->
-           <div class="py-6 py-md-7 ">
+           <div class="py-6 py-md-7 " data-aos="flip-left"
+          data-aos-duration="2000">
              <img src="/assets/images/love.svg" alt="love">
              <h2 class="fs-2 fs-md-1 fw-bolder ">持續支持方案</h2>
              <!-- 職旅會員計畫 -->
@@ -192,8 +200,9 @@
        </div>
       </section>
       <!-- contact -->
-       <div class="container">
-           <div class="bg-primary-60 rounded px-5 ps-md-6 text-white mb-6" >
+       <div class="container" data-aos="flip-left"
+          data-aos-duration="2000">
+           <div class="bg-primary-60 rounded px-5 ps-md-6 text-white mt-6 mb-6" >
              <img src="/assets/images/logo-icon-w.svg" alt="logo" class="mb-5 mt-4 mt-md-5" >
              <h3 class="fs-3 fs-md-2 fw-bold  pb-3">邁向你真正想過的生活，從這裡開始</h3>
              <p class="fs-md-5 pb-5 contact-area">第一次諮詢只要 30 分鐘，可能改變你未來 30 年的生活方式</p>
@@ -211,5 +220,10 @@
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
